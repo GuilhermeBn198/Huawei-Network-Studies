@@ -1,0 +1,9 @@
+This chapter introduces the basis of data communication network.
+
+You should be able to answer the following questions:
+
+▪ What is communication? What is data communication network?
+
+▪ How many different network types according to geographical coverage? 
+
+▪ What are the types of network topology?
