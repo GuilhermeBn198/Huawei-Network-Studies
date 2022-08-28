@@ -3,7 +3,13 @@ This chapter introduces the basis of data communication network.
 You should be able to answer the following questions:
 
 ▪ What is communication? What is data communication network?
+R: communication is the information trasnfer and exchange between people, between people and things, and between things through a certain medium and behavior. A network communication is the communication between the terminal devices through a computer network. 
 
 ▪ How many different network types according to geographical coverage? 
+R: there are a number of different network types according to geographical coverage. They can classified into local area networks(LANs), metropolitan area networks (MANs), and wide area networks (WANs).
 
 ▪ What are the types of network topology?
+R:
+- Network engineering is the art of planning and designing feasible solutions based on network application requirements and computer network system standars, specifications, and technologies under the guidance of information system engineering methods and complete organizations.
+
+- Network engineers are technology professionals who master professional network technologies, have professional skills, professionalism, and project implementation experience in the network engineering field, and are able to fully communicate with customers or other project stakeholders onsite.
