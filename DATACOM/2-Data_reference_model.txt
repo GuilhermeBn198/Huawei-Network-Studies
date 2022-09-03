@@ -1,0 +1,41 @@
+▪ How the data is defined and transmitted in the network?
+R:
+data = information, and it is transmitted in the network throgh devices in binary format
+
+▪ What are the five layers in the TCP/IP reference model?
+R:
+1. Physical Layer: transmit bitstreams over transmission media
+
+2. Data Link Layer: encapsulates packets into frames, transmits frames in P2P or P2MP mode
+
+3. Network Layer: Defines logical addresses in the network and transfers data
+
+4. Transport Layer: stabilish, maintain and cancels an end-to-end data transmission process
+
+5. Session Layer: stabilish, manages & determinates sessions between communicating parties
+
+6. Presentation Layer: translates data formats to ensure that the application-layer data of one system can be identified by the application layer of another system
+
+7. Application Layer: provides interfaces for applications
+
+▪ What are the common standard protocols in each layer?
+R:
+
+Application Layer: telnet, FTP, TFTP, SNMP, HTTP, SMTP, DNS, DHCP
+
+	FTP: FILE TRANSFER PROTOCOL -> FTP transfers files from one host to another to implement file download and upload. 
+
+	TELNET: A standar protocol that provides remote login services on a network, it gives users the ability to operate remote computers
+
+	HTTP: HyperText Transfer Protocol -> HTTP is one of the most used network protocols on the internet. HTTP was originally designed to provide a method for publishing and receiving HTML pages
+
+Transport Layer: TCP, UDP
+
+network layer: ICMP, IGMP, IP
+data link layer: PPPoE, Ethernet, PPP
+Physical Layer: ...
+
+
+▪ How the data is encapsulated and decapsulated?
+R:
+
