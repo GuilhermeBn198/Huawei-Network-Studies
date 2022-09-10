@@ -32,10 +32,47 @@ Application Layer: telnet, FTP, TFTP, SNMP, HTTP, SMTP, DNS, DHCP
 Transport Layer: TCP, UDP
 
 network layer: ICMP, IGMP, IP
+	
 data link layer: PPPoE, Ethernet, PPP
-Physical Layer: ...
+	the data link layer is located between the network layer and the physical layer. It provides intra-segment communication for the network layer, and its functions include framing, physical addressing and error control.
+
+	Ethernet: is a broadcast multiple access protocol that works at the data link layer protocol. generally, a broadcast domain corresponds to an ip network segment.
+	 this connection provides the PC with a media access control(MAC) address uniquely identifies a NIC on a network. Each NIC has a unique MAC address.
+	 the MAC is used to locate specific physical devices in an IP network segment.
+	 A device that works at the data link layer, such as an Ethernet switch maintains a MAC address table to guide data frame forwarding .
+
+	 
+Physical Layer: 
+	the physical layer is at the bottom of the model, this layer trasmits bitstreams on media, it standardizes physical features such as cables, pins, voltages and interfaces. the common transmission media include twisted pairs, optical fibers, and electromagnetic waves.
 
 
 ▪ How the data is encapsulated and decapsulated?
 R:
+	the data is encapsulated by an upper layer of the network which receives the envelope IP, the sender IP and the receiver IP. the same goes to decapsulate the data.
 
+
+1. A MAC address is 48 bits (6 bytes) in length and consists of 12 hexadecimal digits.
+R: TRUE
+
+2. An ARP Reply packet is broadcast so that all hosts can receive it.
+R: FALSE
+
+3. Common data link layer protocols include Ethernet, PPPoE, and PPP.
+R: TRUE
+
+5. Which of the following port numbers is used by Telnet ?
+R: 23
+
+6. What are functions of the network layer?
+R: provide logical addresses for network devices
+send packets fro msource hosts to derstination hosts
+route and forward data packets
+
+7. Which of the following statements are true about the layers in the OSI reference model?
+R:
+ Application layer : provides network services for applications and is closest to end users .
+ Transport layer : implements connection - oriented and non - connection - oriented data transmission , as well
+ as error detection before retransmission .
+ Network layer : defines logical addresses for routers to determine paths and transmits data from source
+ networks to destination networks .
+ Session layer : establishes , manages , and terminates sessions between entities at the presentation layer .
